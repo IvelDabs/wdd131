@@ -1,6 +1,10 @@
+/* Google Fonts API reference */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.gstatic.com'); /* Preconnect link */
+
 /* Global styles */
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Open Sans", sans-serif; /* Changed to use Open Sans */
   color: #333;
   margin: 0;
   padding: 0;
@@ -83,6 +87,7 @@ h2 {
   background: none;
   color: #2c3e50;
 }
+
 .card img {
   width: 30%;
   display: block;
