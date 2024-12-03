@@ -1,10 +1,9 @@
-/* Google Fonts API reference */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-@import url('https://fonts.gstatic.com'); /* Preconnect link */
+@import url('https://fonts.gstatic.com'); 
 
-/* Global styles */
+
 body {
-  font-family: "Open Sans", sans-serif; /* Changed to use Open Sans */
+  font-family: "Open Sans", sans-serif; 
   color: #333;
   margin: 0;
   padding: 0;
@@ -15,7 +14,6 @@ h2 {
   color: #2c3e50;
 }
 
-/* Header styles */
 header {
   background-color: #2980b9;
   padding: 5px 20px;
@@ -29,12 +27,6 @@ nav ul {
   justify-content: center;
   gap: 20px;
 }
-
-/* nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-} */
 
 nav ul li {
   display: inline;
@@ -52,7 +44,6 @@ nav a:hover {
   background-color: #3498db;
 }
 
-/* Main content styles */
 main {
   max-width: 1000px;
   margin: 10px auto;
@@ -109,7 +100,6 @@ h2 {
   margin: 5px 0;
 }
 
-/* Footer styles */
 footer {
   background-color: #2980b9;
   color: white;
