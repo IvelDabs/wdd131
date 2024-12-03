@@ -1,9 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="A webpage about the country/place I visited"
+    />
+    <meta name="author" content="Your Name" />
+    <title>Place Page</title>
+    <link rel="stylesheet" href="styles/place.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Welcome to My Place</h1>
+      <img
+        src="images/hero.webp"
+        alt="Place Image"
+        srcset="images/hero-small.webp 480w, images/hero-large.webp 1024w"
+        sizes="(max-width: 480px) 480px, (max-width: 1024px) 800px, 100vw"
+      />
+    </header>
+
+    <main>
+      <section id="weather">
+        <h2>Weather</h2>
+        <div id="windchill"></div>
+      </section>
+
+      <section id="footer">
+        <p>
+          &copy; <span id="current-year"></span> | Last modified:
+          <span id="last-modified"></span>
+        </p>
+      </section>
+    </main>
+
+    <script src="scripts/place.js" defer></script>
+  </body>
 </html>
