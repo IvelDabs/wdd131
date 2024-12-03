@@ -1,0 +1,26 @@
+/* Styles for large screens (768px and up) */
+
+/* Grid Layout Adjustment */
+@media (max-width: 400px) {
+  main {
+    grid-template-columns: repeat(3, 1fr); /* Three columns on larger screens */
+    gap: 20px;
+  }
+
+  header {
+    padding: 1.5rem;
+    display: flex;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 25px;
+  }
+}
