@@ -22,9 +22,15 @@ header {
   text-align: center;
 }
 
-nav ul {
+/* nav ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+} */
+
+nav ul {
   display: flex;
   justify-content: center;
   gap: 20px;
