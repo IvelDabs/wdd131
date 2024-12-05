@@ -1,17 +1,14 @@
-/* Resetting basic styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Basic body styling */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
 }
 
-/* Header styling */
 header {
   background-color: #333;
   color: white;
@@ -27,25 +24,31 @@ nav a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #f4f4f4; /* Change color on hover */
+  text-decoration: underline; /* Underline text on hover */
 }
 
-/* Temple cards styling */
+/* Using Flexbox for Temple Container */
 #temple-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* This ensures 3 columns */
-  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap; /* This allows the items to wrap onto new rows */
+  gap: 1rem; /* Adds space between the cards */
   padding: 1rem;
+  justify-content: space-between; /* Distributes space evenly between items */
 }
 
+/* Styling each temple card */
 .temple-card {
   background: white;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 1rem); /* 3 columns, minus the gap */
+  box-sizing: border-box; /* Ensure the width calculation accounts for padding */
 }
 
 .temple-card img {
@@ -54,7 +57,6 @@ nav a:hover {
   border-radius: 5px;
 }
 
-/* Footer styling */
 footer {
   text-align: center;
   padding: 1rem;
