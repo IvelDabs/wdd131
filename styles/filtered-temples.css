@@ -24,31 +24,28 @@ nav a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
-  transition: color 0.3s ease; /* Smooth transition for color change */
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #f4f4f4; /* Change color on hover */
-  text-decoration: underline; /* Underline text on hover */
+  color: #f4f4f4; 
+  text-decoration: underline;
 }
 
-/* Using Flexbox for Temple Container */
 #temple-container {
   display: flex;
-  flex-wrap: wrap; /* This allows the items to wrap onto new rows */
-  gap: 1rem; /* Adds space between the cards */
+  flex-wrap: wrap; 
+  gap: 1rem; 
   padding: 1rem;
-  justify-content: space-between; /* Distributes space evenly between items */
-}
+  justify-content: space-between;}
 
-/* Styling each temple card */
 .temple-card {
   background: white;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: calc(33.33% - 1rem); /* 3 columns, minus the gap */
-  box-sizing: border-box; /* Ensure the width calculation accounts for padding */
+  width: calc(33.33% - 1rem); 
+  box-sizing: border-box;
 }
 
 .temple-card img {
