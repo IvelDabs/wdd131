@@ -91,7 +91,7 @@ function renderTemples(templesArray) {
   templesArray.forEach((temple) => {
     const card = document.createElement("div");
     card.classList.add("temple-card");
-    card.innerHTML = `
+    card.innerHTML += `
             <h3>${temple.templeName}</h3>
             <p>${temple.location}</p>
             <p>Dedicated: ${temple.dedicated}</p>
@@ -128,13 +128,13 @@ function filterSmall() {
 }
 
 // Event listeners for the filters
-document
-  .getElementById("home")
-  .addEventListener("click", () => renderTemples(temples));
-document.getElementById("old").addEventListener("click", filterOld);
-document.getElementById("new").addEventListener("click", filterNew);
-document.getElementById("large").addEventListener("click", filterLarge);
-document.getElementById("small").addEventListener("click", filterSmall);
+// document
+//   .getElementById("home")
+//   .addEventListener("click", () => renderTemples(temples));
+// document.getElementById("old").addEventListener("click", filterOld);
+// document.getElementById("new").addEventListener("click", filterNew);
+// document.getElementById("large").addEventListener("click", filterLarge);
+// document.getElementById("small").addEventListener("click", filterSmall);
 
 // Initialize with all temples
 renderTemples(temples);
