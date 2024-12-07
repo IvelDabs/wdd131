@@ -91,7 +91,7 @@ function renderTemples(templesArray) {
     const card = document.createElement("div");
     card.classList.add("temple-card");
     card.innerHTML = `
-            <h2>${temple.templeName}</h2>
+            <h3>${temple.templeName}</h3>
             <p>${temple.location}</p>
             <p>Dedicated: ${temple.dedicated}</p>
             <p>Area: ${temple.area} sq ft</p>
