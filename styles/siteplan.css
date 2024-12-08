@@ -1,31 +1,24 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4; /* Light gray background */
-  color: #333333; /* Dark text color */
+  background-color: #f4f4f4;
+  color: #333;
 }
-h1 {
-  color: #2d3e50; /* Blue for main headings */
-}
+h1,
 h2 {
-  color: #4a6f7a; /* Light blue for subheadings */
+  color: #6b4f47;
 }
-.content {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #ffffff; /* White background for the main content */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adding a light shadow for separation */
-}
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
+.color-scheme {
+  background-color: #f7ebe2;
+  color: #6b4f47;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 .wireframe {
-  display: flex;
-  justify-content: space-between;
-}
-.wireframe div {
-  width: 45%;
-  border: 1px dashed #000;
+  background-color: #d7c7b7;
   padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.wireframe img {
+  width: 100%;
 }
