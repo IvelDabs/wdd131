@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333333; /* Dark text color */
+}
+h1 {
+  color: #2d3e50; /* Blue for main headings */
+}
+h2 {
+  color: #4a6f7a; /* Light blue for subheadings */
+}
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the main content */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adding a light shadow for separation */
+}
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.wireframe {
+  display: flex;
+  justify-content: space-between;
+}
+.wireframe div {
+  width: 45%;
+  border: 1px dashed #000;
+  padding: 20px;
+}
