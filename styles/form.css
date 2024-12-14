@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+  form {
+    padding: 20px;
+  }
+}
